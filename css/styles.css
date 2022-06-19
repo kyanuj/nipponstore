@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.page{
+    background-color: #ebebeb;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+.topbar{
+    background-color: #f38482;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+}
+.logobar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.logobar img{
+    width:150px;
+}
+.searchbar{
+    background-color: #f94747;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.menubar{
+    background-color: #b80000;
+    padding: 10px;
+}
+button{
+    background-color: #b33431;
+    color: #ffff;
+    border-color: #f9585b;
+    padding: 7px;
+    border-radius: 20px;
+}
