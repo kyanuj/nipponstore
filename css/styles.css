@@ -1,3 +1,4 @@
+/* Esta estructura permite resetear el navegador llevando los parametros a 0 para comenzar a dar estilos */
 *{
     padding: 0;
     margin: 0;
@@ -5,25 +6,28 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+/* Aca le damos el colo de fondo a la pagina definida por el disenador */
 .page{
     background-color: #ebebeb;
 }
+
+
 header{
-    display: flex;
-    flex-direction: column;
+    display: flex; /* define el comportamiento flex en el interior de la etiqueta */
+    flex-direction: column; /* define la direccion de flex en columna, por defecto esta en row o se horizontalmente  */
 }
 .topbar{
     background-color: #f38482;
     color: #ffff;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
 }
 .logobar{
     padding: 10px;
     display: flex;
     justify-content: center;
 }
-
+/* Selector hijo la imagen o imagenes dentro de la etiqueta con clase logobar */
 .logobar img{
     width:150px;
 }
@@ -40,7 +44,7 @@ header{
 button{
     background-color: #b33431;
     color: #ffff;
-    border-color: #f9585b;
+    border-color: #f9585b; /* color del borde */
     padding: 7px;
-    border-radius: 20px;
+    border-radius: 20px; /* para redondear */
 }
